@@ -19,7 +19,7 @@ def results(lst_acc,lst_f1,lst_precision,lst_recall,lst_matrix,lst_times,model_n
         f1.write('\n F1 Score: '+str(lst_f1[i]))
         f1.write('\nTraining Time: '+str(lst_times[i]))
         f1.write('\n\nCofusion Matrix: \n'+str(lst_matrix[i]))
-        f1.write('\n\n____________________\n')
+        f1.write('\n\n___________________\n')
     f1.close()
     
 
